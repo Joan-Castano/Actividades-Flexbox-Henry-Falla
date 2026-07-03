@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+ body {
+      background-color: #fafafa;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px; 
+    }
+
+    .galeria img {
+      width: 200px;   
+      height: 200px;  
+      object-fit: cover; /* recorta la imagen para que llene el cuadro sin deformarse */
+    }

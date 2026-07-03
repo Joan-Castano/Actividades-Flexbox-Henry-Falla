@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+    body {
+      display: flex;
+      flex-direction: column; 
+      height: 100vh; 
+    }
+
+    header, footer {
+      background-color: #ccc;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      flex: 1;
+      display: flex; 
+    }
+
+    main article {
+      flex: 2;
+      background-color: #999;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    main nav {
+      flex: 1;
+      background-color: #bbb;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    main aside {
+      flex: 1;
+      background-color: #aaa;
+      padding: 20px;
+      box-sizing: border-box;
+    }

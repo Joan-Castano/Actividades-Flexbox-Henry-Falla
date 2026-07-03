@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      height: 100vh; 
+      background-color: #f5f5f5;
+      
+    }
+
+  
+    .contenedor {
+      width: 100%;
+      max-width: 1000px;
+      box-sizing: border-box;
+    }
+
+
+    header.contenedor {
+      background-color: #f08a78;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    header h1 {
+      margin: 0 0 5px 0;
+      font-size: 24px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+ 
+    nav.contenedor {
+      background-color: #2ec4a6;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 25px;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 20px;
+    }
+
+    nav ul li a, nav .idiomas a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    nav .idiomas {
+      display: flex;
+      gap: 15px;
+    }
+
+    main.contenedor {
+      display: flex;
+      flex: 1;
+      background-color: white;
+    }
+
+
+    aside {
+      flex: 0 0 30%; 
+      background-color: #eeeeee;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    aside img {
+      width: 100%;
+      display: block;
+    }
+
+    article {
+      flex: 0  70%; 
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    article img {
+      width: 100%;
+      margin: 10px 0;
+      display: block;
+    }
+
+    article h2 {
+      margin-top: 0;
+    }
+
+
+    footer.contenedor {
+      background-color: #ddd;
+      text-align: center;
+      padding: 15px;
+      font-size: 13px;
+    }

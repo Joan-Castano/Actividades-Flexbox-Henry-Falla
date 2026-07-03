@@ -1,0 +1,37 @@
+   body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+
+    }
+
+
+    .menu-vertical {
+      max-width: 600px;
+      margin: 0 auto; 
+    }
+
+    .fila {
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      background-color: #e0e0e0;
+      padding: 20px;
+      border-bottom: 2px solid #fafafa;
+    }
+
+    .fila span {
+      font-size: 15px;
+      color: #333;
+      letter-spacing: 1px;
+    }
+
+    .fila a {
+      background-color: white;
+      color: #333;
+      text-decoration: none;
+      padding: 8px 18px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+    }

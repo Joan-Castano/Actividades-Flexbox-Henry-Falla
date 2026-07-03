@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+    /* vh significa "viewport height"  la altura visible del navegador */
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; 
+      background-color: #f0eeec; 
+    }
+
+    .caja-centrada {
+      background-color: #e8e6e3;
+      padding: 30px;
+      width: 350px;
+      box-sizing: border-box; 
+    }
+
+    .caja-centrada h2 {
+      margin-top: 0;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .caja-centrada p {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.5;
+    }
